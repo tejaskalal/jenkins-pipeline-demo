@@ -52,7 +52,7 @@ pipeline {
       failure {
         echo "Pipeline failed."
       }
-      always{
+      always {
         echo "Pipeline execution finished."
       }
     }
