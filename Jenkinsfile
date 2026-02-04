@@ -45,14 +45,14 @@ pipeline {
         '''
       }
     }
-    post{
-      success{
+    post {
+      success {
         echo "Pipeline completed successfully!"
       }
-      failure{
+      failure {
         echo "Pipeline failed."
       }
-      always{
+      always {
         echo "Pipeline execution finished."
       }
     }
